@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 
@@ -9,7 +9,7 @@ import MovieDetails from "./pages/MovieDetails";
 
 function App() {
   return (
-    <HashRouter>
+    <>
       <Navbar />
 
       <Routes>
@@ -18,7 +18,7 @@ function App() {
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/movie/:id" element={<MovieDetails />} />
       </Routes>
-    </HashRouter>
+    </>
   );
 }
 
