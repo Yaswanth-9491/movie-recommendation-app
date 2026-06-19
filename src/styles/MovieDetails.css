@@ -1,0 +1,65 @@
+.movie-details {
+  padding: 40px;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 30px;
+
+  color: white;
+  text-decoration: none;
+
+  background: #2563eb;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.details-container {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.details-poster {
+  width: 350px;
+  border-radius: 12px;
+}
+
+.details-info {
+  flex: 1;
+}
+
+.details-info h1 {
+  margin-bottom: 15px;
+}
+
+.details-info p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.cast-section,
+.crew-section {
+  margin-top: 40px;
+}
+
+.cast-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(200px, 1fr));
+
+  gap: 20px;
+}
+
+.trailer-section {
+  margin-top: 50px;
+}
+
+.trailer-section h2 {
+  margin-bottom: 20px;
+}
+
+.trailer-section iframe {
+  border-radius: 12px;
+}
